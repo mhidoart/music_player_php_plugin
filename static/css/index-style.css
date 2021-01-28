@@ -1,0 +1,86 @@
+@media (max-width : 320px) {
+    .main {
+
+padding-top: 50%;
+
+
+}
+}
+img.GeneratedImage {
+ width: 200px;
+}
+
+html {
+  height: 100vh;
+  width: 100vw; 
+  max-height: 100vh;
+  max-width: 100vw;   
+  margin:auto;
+}
+
+.main {
+ position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+margin-top: 20px;
+padding-top: 20px;
+border-radius: 20px;
+background: rgba(0, 0, 0, 0.8);
+border-width:1px;border-color:#000000;border-style:solid;
+min-width: 550px;
+width: 80%;
+    vertical-align:middle;
+
+
+}
+.main >* {
+        vertical-align:middle;    
+
+}
+audio{
+    width:90%;
+}
+a
+{
+    font-size: 40px;
+}
+body{
+margin-right: auto;
+margin-left: auto;
+width: 300px;
+background: radial-gradient(circle, rgba(177,244,165,1) 0%, rgba(50,222,132,1) 100%);
+}
+
+.box {
+ background-image: url("../pics/dada.jpg"); /* The image used */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+    /* background: rgba(0, 0, 0, 0.658); */
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.726);
+}
+
+.box h2 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #fff;
+    text-align: center;
+}
+a:link, a:visited {
+    border-radius: 20px;
+
+  background-color: whitesmoke;
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: whitesmoke;
+  border-radius: 20px;
+
+}
